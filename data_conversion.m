@@ -29,7 +29,7 @@ for i=1:100 %Loop over clusters
     A = ones(n_dist);% create matrix full of ones with size of square
     underD= tril(A);%only lower triangle filled with ones to asure we do not find duplicates
     square_upper= square + 2*underD;% add 2 lower triangles to avoid duplicates
-    [y, x] = find(sghuquare_upper<1);% Find all euclidean distances <1
+    [y, x] = find(square_upper<1);% Find all euclidean distances <1
 
 
     coord=[y x]; %Coordinate matrix duplicates
