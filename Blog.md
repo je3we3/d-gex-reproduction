@@ -1,4 +1,4 @@
-# d-gex-reproduction
+# D-Gex reproduction
 Mitchell de Boer - m.m.deboer-1@student.tudelft.nl\
 Jan-Willem van Rhenen - j.w.vanrhenen@student.tudelft.nl\
 Delft University of Technology
